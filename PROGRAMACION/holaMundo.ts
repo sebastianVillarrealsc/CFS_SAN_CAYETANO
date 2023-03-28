@@ -1,5 +1,8 @@
-console.log("hola mundo soy la linea uno del archivo typescrip");
-console.log("hol mundo soy la linea dos del archivo typescrip");
+console.log("HOLA MUNDO");
+console.log("encender fuego");
+console.log("poner carne");
+console.log("poner la carne");
 
 
-var nombrevariable = 5;
+
+
