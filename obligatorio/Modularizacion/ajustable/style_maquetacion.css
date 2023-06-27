@@ -1,0 +1,195 @@
+#contenedor {
+    display: flex;
+    width: 100%;
+    height:100%;
+    border: solid orange;
+    flex-direction: column;
+
+
+}
+.titulo{
+    
+    border-radius: 4%;
+    height: 10%;
+    width: 95%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: grey;
+
+    
+}
+.izquierda{
+    height: 100%;
+    width: 28%;
+    border-color: black;
+    flex-direction:column;
+    
+}
+
+.derecha{
+    height: 100%;
+    width: 65%;
+    border-color: black;
+    flex-direction: column-reverse;
+
+    
+}
+
+.encabezado{
+text-align: end;
+text-transform: capitalize;
+    
+    
+    height:45%;
+    
+    
+
+       
+}
+.logo{  margin: 5px;
+    border: solid 2px blue;border-radius: 4%;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(25, 25, 182)
+
+
+}
+.menu1{
+
+
+ 
+    height: 45%;
+    width: 35%;
+    display: flex;
+    margin-left: 55%;
+    margin-top:1%;
+    margin-bottom: 5%;
+    background-color:green;
+}
+.menu2{
+     
+    height: 35%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(148, 33, 33);
+
+}
+.arriba{
+    
+    height: 200%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.abajo{
+
+     
+    
+    height: 200%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.izquierdaarriba{
+    
+    
+    margin: 5px;
+    border-color: 2px black;border-radius: 4%;
+    height: 90%;
+    width: 45%;
+    background-color:rgb(70, 53, 53);
+    display: flex;
+    display: grid;
+    place-items: center
+    ;
+    
+    
+}
+.centroarriba{
+    margin: 5px;
+    border:solid 2px black ;border-radius: 4%;
+    height: 90%;
+    width: 45%;
+    background-color:rgb(49, 138, 138);
+    display: grid;
+    place-items: center;
+}
+.derechaarriba{
+    margin: 5px;
+    border:solid 2px black;border-radius: 4%;
+    height: 90%;
+    width: 45%;
+    background-color:orange;
+    display: grid;
+    place-items: center;
+}
+.izquierdaabajo{ margin: 3px;
+    border: solid 2px black;border-radius: 4%;
+    height: 95%;
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(30, 53, 30);
+    display: grid;
+    place-items: center;
+    
+}
+.derechaabajo{ margin: 5px;
+    border: solid 2px black;border-radius: 4%;
+    height: 95%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:brown;
+    display: grid;
+    place-items: center;
+
+}
+#pie{
+    margin: 5px;
+    border: solid 2px blue;border-radius: 4%;
+    height: 45%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+
+
+}
+.pie{ 
+    margin: 5px;
+    height: 45%;
+    width: 35%;
+    justify-content: space-around;
+    
+}
+.elemento{ margin-top: 20px;
+    margin-right: 5%;
+    padding-right: 8%;
+    border: solid 2px blue;border-radius: 6%;
+    height: 45%;
+    width: 25%;
+    
+    
+    
+    background-color:blue
+}
+
+    
+p{
+    color: aliceblue;
+}
